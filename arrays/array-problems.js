@@ -5,7 +5,7 @@
 
 // 1. Reverse an array
 function reverseArray(arr) {
-    return arr.reverse();
+    return [...arr].reverse();
 }
 
 // Alternative: Without using built-in reverse()
